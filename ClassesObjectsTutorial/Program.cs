@@ -24,3 +24,12 @@ Movie movie3 = new Movie("The One", "Willy Scottsen", "Dog");
 movie1.Afbeelden();
 movie2.Afbeelden();
 movie3.Afbeelden();
+
+/////////////////////////////////////////////////////////////
+
+Song song1 = new Song("Gin & Juice", "Snoop Dogg", 50000);
+Song song2 = new Song("Locked Up", "Akon", 35000);
+Song song3 = new Song();
+song1.Afbeelden();
+song2.Afbeelden();
+song3.Afbeelden();
