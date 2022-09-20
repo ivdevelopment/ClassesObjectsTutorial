@@ -1,5 +1,8 @@
 ﻿using ClassesObjectsTutorial;
 
+/////////////////////////////////////////////////////////////
+// METHODS & CLASSES
+
 Book book1 = new Book("Harry Potter", "J.K. Rowling", 400);
 book1.Afbeelden();
 
@@ -10,6 +13,7 @@ Book book3 = new Book();
 book3.Afbeelden();
 
 /////////////////////////////////////////////////////////////
+// CONSTRUCTORS
 
 Student student1 = new Student("Ian", "Programmeren", 3.6);
 student1.Afbeelden();
@@ -17,6 +21,7 @@ Student student2 = new Student("Mike", "Architectuur", 3.2);
 student2.Afbeelden();
 
 /////////////////////////////////////////////////////////////
+// GETTERS & SETTERS
 
 Movie movie1 = new Movie("Avengers", "Joss Whedon", "PG-13");
 Movie movie2 = new Movie("Shrek", "Adam Adamson", "PG");
@@ -26,6 +31,7 @@ movie2.Afbeelden();
 movie3.Afbeelden();
 
 /////////////////////////////////////////////////////////////
+// STATIC VARS
 
 Song song1 = new Song("Gin & Juice", "Snoop Dogg", 50000);
 Song song2 = new Song("Locked Up", "Akon", 35000);
@@ -33,3 +39,8 @@ Song song3 = new Song();
 song1.Afbeelden();
 song2.Afbeelden();
 song3.Afbeelden();
+
+/////////////////////////////////////////////////////////////
+// STATIC METHODS & CLASSES
+
+UsefulTools.SayHi("Ian");
