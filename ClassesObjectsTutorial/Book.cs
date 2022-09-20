@@ -26,6 +26,7 @@ namespace ClassesObjectsTutorial
         }
         public void Afbeelden()
         {
+            Console.WriteLine("Nieuw boek:");
             Console.WriteLine($"Titel: {title}");
             Console.WriteLine($"Auteur: {author}");
             Console.WriteLine($"Paginas: {pages}");
